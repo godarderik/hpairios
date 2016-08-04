@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82E1ACD03B535C52D8DD34BE /* libPods-hpairapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 383901A9346F72E7ACA6C31D /* libPods-hpairapp.a */; };
 		CE0231721D0C9CB2004E2B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0231711D0C9CB2004E2B43 /* main.m */; };
 		CE0231751D0C9CB2004E2B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0231741D0C9CB2004E2B43 /* AppDelegate.m */; };
-		CE0231781D0C9CB2004E2B43 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0231771D0C9CB2004E2B43 /* FirstViewController.m */; };
-		CE02317B1D0C9CB2004E2B43 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02317A1D0C9CB2004E2B43 /* SecondViewController.m */; };
 		CE02317E1D0C9CB2004E2B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE02317C1D0C9CB2004E2B43 /* Main.storyboard */; };
 		CE0231801D0C9CB2004E2B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE02317F1D0C9CB2004E2B43 /* Assets.xcassets */; };
 		CE0231831D0C9CB2004E2B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0231811D0C9CB2004E2B43 /* LaunchScreen.storyboard */; };
 		CE02318E1D0C9CB2004E2B43 /* hpairappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02318D1D0C9CB2004E2B43 /* hpairappTests.m */; };
 		CE0231991D0C9CB2004E2B43 /* hpairappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0231981D0C9CB2004E2B43 /* hpairappUITests.m */; };
+		CE0231A81D0E55DB004E2B43 /* MapTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0231A71D0E55DB004E2B43 /* MapTableViewController.m */; };
+		CE0CE4541D1A40430003082C /* SingleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE4531D1A40430003082C /* SingleMapViewController.m */; };
+		CE0CE4571D1A45150003082C /* NotificationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE4561D1A45150003082C /* NotificationsTableViewController.m */; };
+		CE2878C41D1E39F500B190CE /* SingleTrackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2878C31D1E39F500B190CE /* SingleTrackTableViewController.m */; };
+		CE65346A1D4079FA0057EA30 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6534691D4079FA0057EA30 /* Track.m */; };
+		CE65346D1D407B160057EA30 /* TrackEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE65346C1D407B160057EA30 /* TrackEvent.m */; };
+		CEB4678B1D45673600DBE5C3 /* TrackEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB467891D45673600DBE5C3 /* TrackEventTableViewCell.m */; };
+		CEB4678C1D45673600DBE5C3 /* TrackEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB4678A1D45673600DBE5C3 /* TrackEventTableViewCell.xib */; };
+		CEB98E071D51AAAD0079DEA0 /* ScheduleEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB98E051D51AAAD0079DEA0 /* ScheduleEventTableViewCell.m */; };
+		CEB98E081D51AAAD0079DEA0 /* ScheduleEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB98E061D51AAAD0079DEA0 /* ScheduleEventTableViewCell.xib */; };
+		CEB98E0B1D51ADDE0079DEA0 /* image00.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB98E091D51ADDE0079DEA0 /* image00.png */; };
+		CEB98E0C1D51ADDE0079DEA0 /* image02.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB98E0A1D51ADDE0079DEA0 /* image02.png */; };
+		CEBF4D081D1CDFF800621686 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF4D071D1CDFF800621686 /* NotificationViewController.m */; };
+		CEBF4D0B1D1CE3B000621686 /* ScheduleByDayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF4D0A1D1CE3B000621686 /* ScheduleByDayTableViewController.m */; };
+		CEBF4D0E1D1CE91F00621686 /* DayScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF4D0D1D1CE91F00621686 /* DayScheduleViewController.m */; };
+		CEBF4D111D1E348800621686 /* AllTracksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF4D101D1E348800621686 /* AllTracksTableViewController.m */; };
+		CEC251781D41E307003B30B3 /* SingleTrackHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC251771D41E307003B30B3 /* SingleTrackHeaderTableViewCell.m */; };
+		CEC2517B1D41E346003B30B3 /* SingleTrackHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC2517A1D41E346003B30B3 /* SingleTrackHeaderTableViewCell.xib */; };
+		CEDC53101D408A86002AD2B7 /* DataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC530F1D408A86002AD2B7 /* DataLoader.m */; };
+		CEEED54B1D407EEC00A060D8 /* Version.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEED54A1D407EEC00A060D8 /* Version.m */; };
+		CEEED54E1D407FF800A060D8 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEED54D1D407FF800A060D8 /* Schedule.m */; };
+		CEEED5511D40800400A060D8 /* ScheduleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEED5501D40800400A060D8 /* ScheduleEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37E10EDD0CEB8383A539964F /* Pods-hpairapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hpairapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-hpairapp/Pods-hpairapp.release.xcconfig"; sourceTree = "<group>"; };
+		383901A9346F72E7ACA6C31D /* libPods-hpairapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hpairapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EBE13DDB1EC33F83F8500D /* Pods-hpairapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hpairapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hpairapp/Pods-hpairapp.debug.xcconfig"; sourceTree = "<group>"; };
 		CE02316D1D0C9CB1004E2B43 /* hpairapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hpairapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0231711D0C9CB2004E2B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE0231731D0C9CB2004E2B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE0231741D0C9CB2004E2B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE0231761D0C9CB2004E2B43 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CE0231771D0C9CB2004E2B43 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		CE0231791D0C9CB2004E2B43 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		CE02317A1D0C9CB2004E2B43 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CE02317D1D0C9CB2004E2B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE02317F1D0C9CB2004E2B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0231821D0C9CB2004E2B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +74,45 @@
 		CE0231941D0C9CB2004E2B43 /* hpairappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hpairappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0231981D0C9CB2004E2B43 /* hpairappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hpairappUITests.m; sourceTree = "<group>"; };
 		CE02319A1D0C9CB2004E2B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0231A61D0E55DB004E2B43 /* MapTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTableViewController.h; sourceTree = "<group>"; };
+		CE0231A71D0E55DB004E2B43 /* MapTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTableViewController.m; sourceTree = "<group>"; };
+		CE0CE4521D1A40430003082C /* SingleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleMapViewController.h; sourceTree = "<group>"; };
+		CE0CE4531D1A40430003082C /* SingleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleMapViewController.m; sourceTree = "<group>"; };
+		CE0CE4551D1A45150003082C /* NotificationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsTableViewController.h; sourceTree = "<group>"; };
+		CE0CE4561D1A45150003082C /* NotificationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsTableViewController.m; sourceTree = "<group>"; };
+		CE2878C21D1E39F500B190CE /* SingleTrackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTrackTableViewController.h; sourceTree = "<group>"; };
+		CE2878C31D1E39F500B190CE /* SingleTrackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTrackTableViewController.m; sourceTree = "<group>"; };
+		CE6534681D4079FA0057EA30 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		CE6534691D4079FA0057EA30 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		CE65346B1D407B160057EA30 /* TrackEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackEvent.h; sourceTree = "<group>"; };
+		CE65346C1D407B160057EA30 /* TrackEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackEvent.m; sourceTree = "<group>"; };
+		CEB467881D45673600DBE5C3 /* TrackEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackEventTableViewCell.h; sourceTree = "<group>"; };
+		CEB467891D45673600DBE5C3 /* TrackEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackEventTableViewCell.m; sourceTree = "<group>"; };
+		CEB4678A1D45673600DBE5C3 /* TrackEventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackEventTableViewCell.xib; sourceTree = "<group>"; };
+		CEB98E041D51AAAD0079DEA0 /* ScheduleEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleEventTableViewCell.h; sourceTree = "<group>"; };
+		CEB98E051D51AAAD0079DEA0 /* ScheduleEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleEventTableViewCell.m; sourceTree = "<group>"; };
+		CEB98E061D51AAAD0079DEA0 /* ScheduleEventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleEventTableViewCell.xib; sourceTree = "<group>"; };
+		CEB98E091D51ADDE0079DEA0 /* image00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image00.png; sourceTree = "<group>"; };
+		CEB98E0A1D51ADDE0079DEA0 /* image02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image02.png; sourceTree = "<group>"; };
+		CEBF4D061D1CDFF800621686 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		CEBF4D071D1CDFF800621686 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		CEBF4D091D1CE3B000621686 /* ScheduleByDayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleByDayTableViewController.h; sourceTree = "<group>"; };
+		CEBF4D0A1D1CE3B000621686 /* ScheduleByDayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleByDayTableViewController.m; sourceTree = "<group>"; };
+		CEBF4D0C1D1CE91F00621686 /* DayScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayScheduleViewController.h; sourceTree = "<group>"; };
+		CEBF4D0D1D1CE91F00621686 /* DayScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayScheduleViewController.m; sourceTree = "<group>"; };
+		CEBF4D0F1D1E348800621686 /* AllTracksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTracksTableViewController.h; sourceTree = "<group>"; };
+		CEBF4D101D1E348800621686 /* AllTracksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTracksTableViewController.m; sourceTree = "<group>"; };
+		CEC251761D41E307003B30B3 /* SingleTrackHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTrackHeaderTableViewCell.h; sourceTree = "<group>"; };
+		CEC251771D41E307003B30B3 /* SingleTrackHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTrackHeaderTableViewCell.m; sourceTree = "<group>"; };
+		CEC2517A1D41E346003B30B3 /* SingleTrackHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleTrackHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		CEDC530E1D408A86002AD2B7 /* DataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLoader.h; sourceTree = "<group>"; };
+		CEDC530F1D408A86002AD2B7 /* DataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLoader.m; sourceTree = "<group>"; };
+		CEEED5491D407EEC00A060D8 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		CEEED54A1D407EEC00A060D8 /* Version.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Version.m; sourceTree = "<group>"; };
+		CEEED54C1D407FF800A060D8 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		CEEED54D1D407FF800A060D8 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		CEEED54F1D40800400A060D8 /* ScheduleEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleEvent.h; sourceTree = "<group>"; };
+		CEEED5501D40800400A060D8 /* ScheduleEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E1ACD03B535C52D8DD34BE /* libPods-hpairapp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +141,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		739C855FCFC86A672DCA414E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1EBE13DDB1EC33F83F8500D /* Pods-hpairapp.debug.xcconfig */,
+				37E10EDD0CEB8383A539964F /* Pods-hpairapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE0231641D0C9CB1004E2B43 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +157,8 @@
 				CE02318C1D0C9CB2004E2B43 /* hpairappTests */,
 				CE0231971D0C9CB2004E2B43 /* hpairappUITests */,
 				CE02316E1D0C9CB1004E2B43 /* Products */,
+				739C855FCFC86A672DCA414E /* Pods */,
+				E42F8CB63215E75D260E58F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,15 +175,31 @@
 		CE02316F1D0C9CB2004E2B43 /* hpairapp */ = {
 			isa = PBXGroup;
 			children = (
+				CE6534671D4079DA0057EA30 /* Models */,
 				CE0231731D0C9CB2004E2B43 /* AppDelegate.h */,
 				CE0231741D0C9CB2004E2B43 /* AppDelegate.m */,
-				CE0231761D0C9CB2004E2B43 /* FirstViewController.h */,
-				CE0231771D0C9CB2004E2B43 /* FirstViewController.m */,
-				CE0231791D0C9CB2004E2B43 /* SecondViewController.h */,
-				CE02317A1D0C9CB2004E2B43 /* SecondViewController.m */,
-				CE02317C1D0C9CB2004E2B43 /* Main.storyboard */,
+				CEDC530E1D408A86002AD2B7 /* DataLoader.h */,
+				CEDC530F1D408A86002AD2B7 /* DataLoader.m */,
+				CE0231A61D0E55DB004E2B43 /* MapTableViewController.h */,
+				CE0231A71D0E55DB004E2B43 /* MapTableViewController.m */,
+				CE0CE4521D1A40430003082C /* SingleMapViewController.h */,
+				CE0CE4531D1A40430003082C /* SingleMapViewController.m */,
+				CEBF4D0F1D1E348800621686 /* AllTracksTableViewController.h */,
+				CEBF4D101D1E348800621686 /* AllTracksTableViewController.m */,
+				CE2878C21D1E39F500B190CE /* SingleTrackTableViewController.h */,
+				CE2878C31D1E39F500B190CE /* SingleTrackTableViewController.m */,
+				CEC251791D41E310003B30B3 /* UI Elements */,
+				CEBF4D091D1CE3B000621686 /* ScheduleByDayTableViewController.h */,
+				CEBF4D0A1D1CE3B000621686 /* ScheduleByDayTableViewController.m */,
+				CEBF4D0C1D1CE91F00621686 /* DayScheduleViewController.h */,
+				CEBF4D0D1D1CE91F00621686 /* DayScheduleViewController.m */,
+				CE0CE4551D1A45150003082C /* NotificationsTableViewController.h */,
+				CE0CE4561D1A45150003082C /* NotificationsTableViewController.m */,
+				CEBF4D061D1CDFF800621686 /* NotificationViewController.h */,
+				CEBF4D071D1CDFF800621686 /* NotificationViewController.m */,
 				CE02317F1D0C9CB2004E2B43 /* Assets.xcassets */,
 				CE0231811D0C9CB2004E2B43 /* LaunchScreen.storyboard */,
+				CE02317C1D0C9CB2004E2B43 /* Main.storyboard */,
 				CE0231841D0C9CB2004E2B43 /* Info.plist */,
 				CE0231701D0C9CB2004E2B43 /* Supporting Files */,
 			);
@@ -122,6 +209,8 @@
 		CE0231701D0C9CB2004E2B43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEB98E091D51ADDE0079DEA0 /* image00.png */,
+				CEB98E0A1D51ADDE0079DEA0 /* image02.png */,
 				CE0231711D0C9CB2004E2B43 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -145,6 +234,47 @@
 			path = hpairappUITests;
 			sourceTree = "<group>";
 		};
+		CE6534671D4079DA0057EA30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEEED5491D407EEC00A060D8 /* Version.h */,
+				CEEED54A1D407EEC00A060D8 /* Version.m */,
+				CE6534681D4079FA0057EA30 /* Track.h */,
+				CE6534691D4079FA0057EA30 /* Track.m */,
+				CE65346B1D407B160057EA30 /* TrackEvent.h */,
+				CE65346C1D407B160057EA30 /* TrackEvent.m */,
+				CEEED54C1D407FF800A060D8 /* Schedule.h */,
+				CEEED54D1D407FF800A060D8 /* Schedule.m */,
+				CEEED54F1D40800400A060D8 /* ScheduleEvent.h */,
+				CEEED5501D40800400A060D8 /* ScheduleEvent.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CEC251791D41E310003B30B3 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				CEC251761D41E307003B30B3 /* SingleTrackHeaderTableViewCell.h */,
+				CEC251771D41E307003B30B3 /* SingleTrackHeaderTableViewCell.m */,
+				CEC2517A1D41E346003B30B3 /* SingleTrackHeaderTableViewCell.xib */,
+				CEB467881D45673600DBE5C3 /* TrackEventTableViewCell.h */,
+				CEB467891D45673600DBE5C3 /* TrackEventTableViewCell.m */,
+				CEB4678A1D45673600DBE5C3 /* TrackEventTableViewCell.xib */,
+				CEB98E041D51AAAD0079DEA0 /* ScheduleEventTableViewCell.h */,
+				CEB98E051D51AAAD0079DEA0 /* ScheduleEventTableViewCell.m */,
+				CEB98E061D51AAAD0079DEA0 /* ScheduleEventTableViewCell.xib */,
+			);
+			name = "UI Elements";
+			sourceTree = "<group>";
+		};
+		E42F8CB63215E75D260E58F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383901A9346F72E7ACA6C31D /* libPods-hpairapp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE02319D1D0C9CB2004E2B43 /* Build configuration list for PBXNativeTarget "hpairapp" */;
 			buildPhases = (
+				75FB80599B7A138EDE60FB36 /* [CP] Check Pods Manifest.lock */,
 				CE0231691D0C9CB1004E2B43 /* Sources */,
 				CE02316A1D0C9CB1004E2B43 /* Frameworks */,
 				CE02316B1D0C9CB1004E2B43 /* Resources */,
+				993E635528369FC282575888 /* [CP] Embed Pods Frameworks */,
+				32969DDA241AF343D25F4AA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +345,13 @@
 				TargetAttributes = {
 					CE02316C1D0C9CB1004E2B43 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3RALW97T8W;
+						DevelopmentTeamName = "Erik  Godard";
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					CE0231881D0C9CB2004E2B43 = {
 						CreatedOnToolsVersion = 7.3;
@@ -250,7 +390,12 @@
 			files = (
 				CE0231831D0C9CB2004E2B43 /* LaunchScreen.storyboard in Resources */,
 				CE0231801D0C9CB2004E2B43 /* Assets.xcassets in Resources */,
+				CEC2517B1D41E346003B30B3 /* SingleTrackHeaderTableViewCell.xib in Resources */,
+				CEB98E0C1D51ADDE0079DEA0 /* image02.png in Resources */,
 				CE02317E1D0C9CB2004E2B43 /* Main.storyboard in Resources */,
+				CEB4678C1D45673600DBE5C3 /* TrackEventTableViewCell.xib in Resources */,
+				CEB98E0B1D51ADDE0079DEA0 /* image00.png in Resources */,
+				CEB98E081D51AAAD0079DEA0 /* ScheduleEventTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +415,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32969DDA241AF343D25F4AA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hpairapp/Pods-hpairapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75FB80599B7A138EDE60FB36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		993E635528369FC282575888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hpairapp/Pods-hpairapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE0231691D0C9CB1004E2B43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE02317B1D0C9CB2004E2B43 /* SecondViewController.m in Sources */,
+				CE2878C41D1E39F500B190CE /* SingleTrackTableViewController.m in Sources */,
+				CEEED54E1D407FF800A060D8 /* Schedule.m in Sources */,
+				CEB98E071D51AAAD0079DEA0 /* ScheduleEventTableViewCell.m in Sources */,
+				CEEED54B1D407EEC00A060D8 /* Version.m in Sources */,
+				CE65346D1D407B160057EA30 /* TrackEvent.m in Sources */,
+				CEB4678B1D45673600DBE5C3 /* TrackEventTableViewCell.m in Sources */,
+				CEBF4D0E1D1CE91F00621686 /* DayScheduleViewController.m in Sources */,
+				CE65346A1D4079FA0057EA30 /* Track.m in Sources */,
+				CEBF4D111D1E348800621686 /* AllTracksTableViewController.m in Sources */,
+				CEBF4D0B1D1CE3B000621686 /* ScheduleByDayTableViewController.m in Sources */,
+				CEDC53101D408A86002AD2B7 /* DataLoader.m in Sources */,
+				CEC251781D41E307003B30B3 /* SingleTrackHeaderTableViewCell.m in Sources */,
+				CE0231A81D0E55DB004E2B43 /* MapTableViewController.m in Sources */,
 				CE0231751D0C9CB2004E2B43 /* AppDelegate.m in Sources */,
-				CE0231781D0C9CB2004E2B43 /* FirstViewController.m in Sources */,
+				CE0CE4571D1A45150003082C /* NotificationsTableViewController.m in Sources */,
 				CE0231721D0C9CB2004E2B43 /* main.m in Sources */,
+				CE0CE4541D1A40430003082C /* SingleMapViewController.m in Sources */,
+				CEEED5511D40800400A060D8 /* ScheduleEvent.m in Sources */,
+				CEBF4D081D1CDFF800621686 /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,23 +627,33 @@
 		};
 		CE02319E1D0C9CB2004E2B43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EBE13DDB1EC33F83F8500D /* Pods-hpairapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = hpairapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.godarderik.hpair.hpairapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		CE02319F1D0C9CB2004E2B43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E10EDD0CEB8383A539964F /* Pods-hpairapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = hpairapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.godarderik.hpair.hpairapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -504,6 +722,7 @@
 				CE02319F1D0C9CB2004E2B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0231A01D0C9CB2004E2B43 /* Build configuration list for PBXNativeTarget "hpairappTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +731,7 @@
 				CE0231A21D0C9CB2004E2B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0231A31D0C9CB2004E2B43 /* Build configuration list for PBXNativeTarget "hpairappUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +740,7 @@
 				CE0231A51D0C9CB2004E2B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
