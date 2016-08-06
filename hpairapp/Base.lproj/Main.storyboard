@@ -213,25 +213,7 @@
         <!--Single Map View Controller-->
         <scene sceneID="9hI-bZ-Z09">
             <objects>
-                <viewController id="0hp-qw-PWp" customClass="SingleMapViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="vCu-FH-77y"/>
-                        <viewControllerLayoutGuide type="bottom" id="Utp-ZK-ChM"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UAs-Qg-uVU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oMq-Dd-mte">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <connections>
-                        <outlet property="mapImageView" destination="oMq-Dd-mte" id="VJC-7d-qVJ"/>
-                    </connections>
-                </viewController>
+                <viewController id="0hp-qw-PWp" customClass="SingleMapViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wnz-hd-Pj5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2268" y="-608"/>

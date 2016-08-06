@@ -19,6 +19,27 @@
 		CE0CE4541D1A40430003082C /* SingleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE4531D1A40430003082C /* SingleMapViewController.m */; };
 		CE0CE4571D1A45150003082C /* NotificationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE4561D1A45150003082C /* NotificationsTableViewController.m */; };
 		CE2878C41D1E39F500B190CE /* SingleTrackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2878C31D1E39F500B190CE /* SingleTrackTableViewController.m */; };
+		CE63E5E21D531138007ADB72 /* [Bronze] Centre for Corporate Sustainablilty and Innovations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5CD1D531138007ADB72 /* [Bronze] Centre for Corporate Sustainablilty and Innovations.pdf */; };
+		CE63E5E31D531138007ADB72 /* [Bronze] CMU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5CE1D531138007ADB72 /* [Bronze] CMU.jpg */; };
+		CE63E5E41D531138007ADB72 /* [Bronze] Fairbank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5CF1D531138007ADB72 /* [Bronze] Fairbank.jpg */; };
+		CE63E5E51D531138007ADB72 /* [Bronze] HUAC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D01D531138007ADB72 /* [Bronze] HUAC.jpg */; };
+		CE63E5E61D531138007ADB72 /* [Bronze] Milton Exhibits Logo_(R)_4695C.ai in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D11D531138007ADB72 /* [Bronze] Milton Exhibits Logo_(R)_4695C.ai */; };
+		CE63E5E71D531138007ADB72 /* [Bronze] Milton Exhibits.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D21D531138007ADB72 /* [Bronze] Milton Exhibits.jpg */; };
+		CE63E5E81D531138007ADB72 /* [Bronze] Schwarzman Scholars - Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D31D531138007ADB72 /* [Bronze] Schwarzman Scholars - Logo.png */; };
+		CE63E5E91D531138007ADB72 /* [Bronze] WBF.png in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D41D531138007ADB72 /* [Bronze] WBF.png */; };
+		CE63E5EA1D531138007ADB72 /* [Media] ForbesAsia_Black_Red w reg_for small print.png in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D51D531138007ADB72 /* [Media] ForbesAsia_Black_Red w reg_for small print.png */; };
+		CE63E5EB1D531138007ADB72 /* [Media] NYT_EDU logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D61D531138007ADB72 /* [Media] NYT_EDU logo.pdf */; };
+		CE63E5EC1D531138007ADB72 /* [Official Carrier] Cathay Pacific Airways Limited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D71D531138007ADB72 /* [Official Carrier] Cathay Pacific Airways Limited.jpg */; };
+		CE63E5ED1D531138007ADB72 /* [Platinum] Huawei logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D81D531138007ADB72 /* [Platinum] Huawei logo.png */; };
+		CE63E5EE1D531138007ADB72 /* [Silver] Deloitte.eps in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5D91D531138007ADB72 /* [Silver] Deloitte.eps */; };
+		CE63E5EF1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.ai in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5DA1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.ai */; };
+		CE63E5F01D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5DB1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.jpg */; };
+		CE63E5F11D531138007ADB72 /* [Sup Org] Meetings and Exhibitions Hong Kong (MEHK).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5DC1D531138007ADB72 /* [Sup Org] Meetings and Exhibitions Hong Kong (MEHK).jpg */; };
+		CE63E5F21D531138007ADB72 /* [Sup Org] Perrier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5DD1D531138007ADB72 /* [Sup Org] Perrier.jpg */; };
+		CE63E5F31D531138007ADB72 /* [Sup Org] WAN.png in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5DE1D531138007ADB72 /* [Sup Org] WAN.png */; };
+		CE63E5F41D531138007ADB72 /* [TBD] IBC.png in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5DF1D531138007ADB72 /* [TBD] IBC.png */; };
+		CE63E5F51D531138007ADB72 /* NYTinEducation_B_W_hi_res.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5E01D531138007ADB72 /* NYTinEducation_B_W_hi_res.jpg */; };
+		CE63E5F61D531138007ADB72 /* perlogoupg4cbsr.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE63E5E11D531138007ADB72 /* perlogoupg4cbsr.pdf */; };
 		CE65346A1D4079FA0057EA30 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6534691D4079FA0057EA30 /* Track.m */; };
 		CE65346D1D407B160057EA30 /* TrackEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE65346C1D407B160057EA30 /* TrackEvent.m */; };
 		CEB4678B1D45673600DBE5C3 /* TrackEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB467891D45673600DBE5C3 /* TrackEventTableViewCell.m */; };
@@ -82,6 +103,27 @@
 		CE0CE4561D1A45150003082C /* NotificationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsTableViewController.m; sourceTree = "<group>"; };
 		CE2878C21D1E39F500B190CE /* SingleTrackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTrackTableViewController.h; sourceTree = "<group>"; };
 		CE2878C31D1E39F500B190CE /* SingleTrackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTrackTableViewController.m; sourceTree = "<group>"; };
+		CE63E5CD1D531138007ADB72 /* [Bronze] Centre for Corporate Sustainablilty and Innovations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "[Bronze] Centre for Corporate Sustainablilty and Innovations.pdf"; sourceTree = "<group>"; };
+		CE63E5CE1D531138007ADB72 /* [Bronze] CMU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Bronze] CMU.jpg"; sourceTree = "<group>"; };
+		CE63E5CF1D531138007ADB72 /* [Bronze] Fairbank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Bronze] Fairbank.jpg"; sourceTree = "<group>"; };
+		CE63E5D01D531138007ADB72 /* [Bronze] HUAC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Bronze] HUAC.jpg"; sourceTree = "<group>"; };
+		CE63E5D11D531138007ADB72 /* [Bronze] Milton Exhibits Logo_(R)_4695C.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[Bronze] Milton Exhibits Logo_(R)_4695C.ai"; sourceTree = "<group>"; };
+		CE63E5D21D531138007ADB72 /* [Bronze] Milton Exhibits.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Bronze] Milton Exhibits.jpg"; sourceTree = "<group>"; };
+		CE63E5D31D531138007ADB72 /* [Bronze] Schwarzman Scholars - Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[Bronze] Schwarzman Scholars - Logo.png"; sourceTree = "<group>"; };
+		CE63E5D41D531138007ADB72 /* [Bronze] WBF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[Bronze] WBF.png"; sourceTree = "<group>"; };
+		CE63E5D51D531138007ADB72 /* [Media] ForbesAsia_Black_Red w reg_for small print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[Media] ForbesAsia_Black_Red w reg_for small print.png"; sourceTree = "<group>"; };
+		CE63E5D61D531138007ADB72 /* [Media] NYT_EDU logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "[Media] NYT_EDU logo.pdf"; sourceTree = "<group>"; };
+		CE63E5D71D531138007ADB72 /* [Official Carrier] Cathay Pacific Airways Limited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Official Carrier] Cathay Pacific Airways Limited.jpg"; sourceTree = "<group>"; };
+		CE63E5D81D531138007ADB72 /* [Platinum] Huawei logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[Platinum] Huawei logo.png"; sourceTree = "<group>"; };
+		CE63E5D91D531138007ADB72 /* [Silver] Deloitte.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = "[Silver] Deloitte.eps"; sourceTree = "<group>"; };
+		CE63E5DA1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[Sup Org] L'OCCITANE LOGO.ai"; sourceTree = "<group>"; };
+		CE63E5DB1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Sup Org] L'OCCITANE LOGO.jpg"; sourceTree = "<group>"; };
+		CE63E5DC1D531138007ADB72 /* [Sup Org] Meetings and Exhibitions Hong Kong (MEHK).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Sup Org] Meetings and Exhibitions Hong Kong (MEHK).jpg"; sourceTree = "<group>"; };
+		CE63E5DD1D531138007ADB72 /* [Sup Org] Perrier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "[Sup Org] Perrier.jpg"; sourceTree = "<group>"; };
+		CE63E5DE1D531138007ADB72 /* [Sup Org] WAN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[Sup Org] WAN.png"; sourceTree = "<group>"; };
+		CE63E5DF1D531138007ADB72 /* [TBD] IBC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[TBD] IBC.png"; sourceTree = "<group>"; };
+		CE63E5E01D531138007ADB72 /* NYTinEducation_B_W_hi_res.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NYTinEducation_B_W_hi_res.jpg; sourceTree = "<group>"; };
+		CE63E5E11D531138007ADB72 /* perlogoupg4cbsr.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = perlogoupg4cbsr.pdf; sourceTree = "<group>"; };
 		CE6534681D4079FA0057EA30 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
 		CE6534691D4079FA0057EA30 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 		CE65346B1D407B160057EA30 /* TrackEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackEvent.h; sourceTree = "<group>"; };
@@ -201,6 +243,7 @@
 				CE0231811D0C9CB2004E2B43 /* LaunchScreen.storyboard */,
 				CE02317C1D0C9CB2004E2B43 /* Main.storyboard */,
 				CE0231841D0C9CB2004E2B43 /* Info.plist */,
+				CE63E5CC1D531129007ADB72 /* SponsorLogos */,
 				CE0231701D0C9CB2004E2B43 /* Supporting Files */,
 			);
 			path = hpairapp;
@@ -232,6 +275,34 @@
 				CE02319A1D0C9CB2004E2B43 /* Info.plist */,
 			);
 			path = hpairappUITests;
+			sourceTree = "<group>";
+		};
+		CE63E5CC1D531129007ADB72 /* SponsorLogos */ = {
+			isa = PBXGroup;
+			children = (
+				CE63E5CD1D531138007ADB72 /* [Bronze] Centre for Corporate Sustainablilty and Innovations.pdf */,
+				CE63E5CE1D531138007ADB72 /* [Bronze] CMU.jpg */,
+				CE63E5CF1D531138007ADB72 /* [Bronze] Fairbank.jpg */,
+				CE63E5D01D531138007ADB72 /* [Bronze] HUAC.jpg */,
+				CE63E5D11D531138007ADB72 /* [Bronze] Milton Exhibits Logo_(R)_4695C.ai */,
+				CE63E5D21D531138007ADB72 /* [Bronze] Milton Exhibits.jpg */,
+				CE63E5D31D531138007ADB72 /* [Bronze] Schwarzman Scholars - Logo.png */,
+				CE63E5D41D531138007ADB72 /* [Bronze] WBF.png */,
+				CE63E5D51D531138007ADB72 /* [Media] ForbesAsia_Black_Red w reg_for small print.png */,
+				CE63E5D61D531138007ADB72 /* [Media] NYT_EDU logo.pdf */,
+				CE63E5D71D531138007ADB72 /* [Official Carrier] Cathay Pacific Airways Limited.jpg */,
+				CE63E5D81D531138007ADB72 /* [Platinum] Huawei logo.png */,
+				CE63E5D91D531138007ADB72 /* [Silver] Deloitte.eps */,
+				CE63E5DA1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.ai */,
+				CE63E5DB1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.jpg */,
+				CE63E5DC1D531138007ADB72 /* [Sup Org] Meetings and Exhibitions Hong Kong (MEHK).jpg */,
+				CE63E5DD1D531138007ADB72 /* [Sup Org] Perrier.jpg */,
+				CE63E5DE1D531138007ADB72 /* [Sup Org] WAN.png */,
+				CE63E5DF1D531138007ADB72 /* [TBD] IBC.png */,
+				CE63E5E01D531138007ADB72 /* NYTinEducation_B_W_hi_res.jpg */,
+				CE63E5E11D531138007ADB72 /* perlogoupg4cbsr.pdf */,
+			);
+			name = SponsorLogos;
 			sourceTree = "<group>";
 		};
 		CE6534671D4079DA0057EA30 /* Models */ = {
@@ -388,14 +459,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE63E5EF1D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.ai in Resources */,
+				CE63E5F01D531138007ADB72 /* [Sup Org] L'OCCITANE LOGO.jpg in Resources */,
+				CE63E5EA1D531138007ADB72 /* [Media] ForbesAsia_Black_Red w reg_for small print.png in Resources */,
 				CE0231831D0C9CB2004E2B43 /* LaunchScreen.storyboard in Resources */,
+				CE63E5E51D531138007ADB72 /* [Bronze] HUAC.jpg in Resources */,
 				CE0231801D0C9CB2004E2B43 /* Assets.xcassets in Resources */,
+				CE63E5F51D531138007ADB72 /* NYTinEducation_B_W_hi_res.jpg in Resources */,
+				CE63E5E31D531138007ADB72 /* [Bronze] CMU.jpg in Resources */,
 				CEC2517B1D41E346003B30B3 /* SingleTrackHeaderTableViewCell.xib in Resources */,
 				CEB98E0C1D51ADDE0079DEA0 /* image02.png in Resources */,
+				CE63E5E61D531138007ADB72 /* [Bronze] Milton Exhibits Logo_(R)_4695C.ai in Resources */,
+				CE63E5E41D531138007ADB72 /* [Bronze] Fairbank.jpg in Resources */,
 				CE02317E1D0C9CB2004E2B43 /* Main.storyboard in Resources */,
 				CEB4678C1D45673600DBE5C3 /* TrackEventTableViewCell.xib in Resources */,
+				CE63E5EB1D531138007ADB72 /* [Media] NYT_EDU logo.pdf in Resources */,
+				CE63E5E91D531138007ADB72 /* [Bronze] WBF.png in Resources */,
+				CE63E5E71D531138007ADB72 /* [Bronze] Milton Exhibits.jpg in Resources */,
+				CE63E5EC1D531138007ADB72 /* [Official Carrier] Cathay Pacific Airways Limited.jpg in Resources */,
+				CE63E5E81D531138007ADB72 /* [Bronze] Schwarzman Scholars - Logo.png in Resources */,
+				CE63E5F41D531138007ADB72 /* [TBD] IBC.png in Resources */,
+				CE63E5F31D531138007ADB72 /* [Sup Org] WAN.png in Resources */,
+				CE63E5F21D531138007ADB72 /* [Sup Org] Perrier.jpg in Resources */,
 				CEB98E0B1D51ADDE0079DEA0 /* image00.png in Resources */,
+				CE63E5EE1D531138007ADB72 /* [Silver] Deloitte.eps in Resources */,
+				CE63E5F11D531138007ADB72 /* [Sup Org] Meetings and Exhibitions Hong Kong (MEHK).jpg in Resources */,
 				CEB98E081D51AAAD0079DEA0 /* ScheduleEventTableViewCell.xib in Resources */,
+				CE63E5F61D531138007ADB72 /* perlogoupg4cbsr.pdf in Resources */,
+				CE63E5E21D531138007ADB72 /* [Bronze] Centre for Corporate Sustainablilty and Innovations.pdf in Resources */,
+				CE63E5ED1D531138007ADB72 /* [Platinum] Huawei logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

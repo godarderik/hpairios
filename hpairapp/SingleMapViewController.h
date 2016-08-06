@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SingleMapViewController : UIViewController
+@interface SingleMapViewController : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic, copy) NSString*  mapID;
-@property (weak, nonatomic) IBOutlet UIImageView *mapImageView;
+
 
 @end

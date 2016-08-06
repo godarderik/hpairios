@@ -113,12 +113,15 @@
     
     NSDictionary *storedVersionInfo = [self retrieveStoredDataForDataKey:@"version"];
     
+    BOOL freshInstall = NO;
+    
     for (NSString* item in self.versionDataKeyMappings.allKeys) {
-        if (!storedVersionInfo || storedVersionInfo[item] < versionInfo[item]) {
+        if (!storedVersionInfo || storedVersionInfo[item] < versionInfo[item] || freshInstall) {
             NSMutableDictionary *newDictionary = [storedVersionInfo mutableCopy];
             if (!newDictionary) {
                 //on a fresh install, use the downloaded versions
                 newDictionary = [versionInfo mutableCopy];
+                freshInstall = YES;
             }
             newDictionary[item] = versionInfo[item];
             
@@ -134,7 +137,7 @@
     
     NSURL *url = [[NSURL alloc] initWithString:self.urlMappings[dataKey]];
     
-    [NSURLConnection sendAsynchronousRequest:[[NSURLRequest alloc] initWithURL:url] queue:[[NSOperationQueue alloc] init] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+    [NSURLConnection sendAsynchronousRequest:[[NSURLRequest alloc] initWithURL:url] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
         
         if (!error) {
             NSError *error = nil;
