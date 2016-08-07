@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataLoader.h"
 
-@interface NotificationsTableViewController : UITableViewController
+@class NotificationItem;
 
-@property (nonatomic, copy) NSString* toShowNotification;
-@property (nonatomic, copy) NSArray* notifications;
+@interface NotificationsTableViewController : UITableViewController <DataLoaderReceiver>
+
+@property (nonatomic, copy) NSArray<NotificationItem *> *notifications;
 
 @end

@@ -7,12 +7,23 @@
 //
 
 #import "TrackEventTableViewCell.h"
+#import "AppDelegate.h"
 
 @implementation TrackEventTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    UIColor *textColor = [UIColor darkGrayColor];
+
+    self.eventName.textColor = delegate.darkColor;
+    self.eventDate.textColor = textColor;
+    self.eventTime.textColor = textColor;
+    self.eventLocation.textColor = textColor;
+    self.eventDescription.textColor = textColor;
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

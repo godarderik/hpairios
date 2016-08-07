@@ -11,6 +11,7 @@
 #import "DataLoader.h"
 #import "Track.h"
 #import "ScheduleEvent.h"
+#import "AppDelegate.h"
 
 @interface AllTracksTableViewController ()
 
@@ -41,6 +42,9 @@
                       @"endTime": @"scheduleEventEndTime",
                       @"date":@"scheduleEventDate"
                       };
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    self.view.backgroundColor = delegate.darkColor;
    
 }
 
@@ -126,6 +130,12 @@
     // Configure the cell...
     
     cell.textLabel.text = [self.tracks objectAtIndex:indexPath.row].trackName;
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    //cell.backgroundColor = delegate.mainColor;
+    cell.textLabel.textColor = delegate.darkColor;
+    
     
     return cell;
 }

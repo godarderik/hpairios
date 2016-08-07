@@ -8,6 +8,7 @@
 
 #import "MapTableViewController.h"
 #import "SingleMapViewController.h"
+#import "AppDelegate.h"
 
 @interface MapTableViewController ()
 
@@ -21,6 +22,9 @@
     [super viewDidLoad];
     
     self.maps = @[@"Subway", @"CUHK Campus"];
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    self.view.backgroundColor = delegate.darkColor;
 
     
     // Uncomment the following line to preserve selection between presentations.
@@ -57,6 +61,11 @@
     // Configure the cell...
     
     cell.textLabel.text = [self.maps objectAtIndex:indexPath.row];
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    //cell.backgroundColor = delegate.mainColor;
+    cell.textLabel.textColor = delegate.darkColor;
     
     return cell;
 }

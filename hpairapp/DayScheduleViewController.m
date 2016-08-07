@@ -9,6 +9,7 @@
 #import "DayScheduleViewController.h"
 #import "Schedule.h"
 #import "ScheduleEventTableViewCell.h"
+#import "AppDelegate.h"
 
 static NSString *mapTableViewCellLabel = @"SingleTrackTableViewCellLabel";
 
@@ -23,6 +24,10 @@ static NSString *mapTableViewCellLabel = @"SingleTrackTableViewCellLabel";
     self.navigationItem.title = self.currentSchedule.scheduleDate;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.estimatedRowHeight = 140;
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    self.view.backgroundColor = delegate.darkColor;
 }
 
 - (void)didReceiveMemoryWarning {

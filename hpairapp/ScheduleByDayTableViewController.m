@@ -10,6 +10,7 @@
 #import "DayScheduleViewController.h"
 #import "Schedule.h"
 #import "ScheduleEvent.h"
+#import "AppDelegate.h"
 
 
 @interface ScheduleByDayTableViewController ()
@@ -39,6 +40,8 @@
                           @"date":@"scheduleEventDate",
                           @"location":@"location"
                      };
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    self.view.backgroundColor = delegate.darkColor;
     
 }
 
@@ -120,6 +123,11 @@
     // Configure the cell...
     
     cell.textLabel.text = [self.dates objectAtIndex:indexPath.row].scheduleDate;
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    //cell.backgroundColor = delegate.mainColor;
+    cell.textLabel.textColor = delegate.darkColor;
     
     return cell;
 }

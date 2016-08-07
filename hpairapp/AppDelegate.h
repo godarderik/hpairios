@@ -14,5 +14,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) UIColor *mainColor;
+@property (strong, nonatomic) UIColor *darkColor;
+@property (strong, nonatomic) UIColor *textColor;
+
 @end
 

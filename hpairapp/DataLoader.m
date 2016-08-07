@@ -32,21 +32,24 @@
     if (self = [super init]) {
         self.urlMappings =
             @{
-            @"tracks"   : @"https://s3.amazonaws.com/hpairapi/tracks.json",
-            @"schedules": @"https://s3.amazonaws.com/hpairapi/schedule.json",
-            @"version"  : @"https://s3.amazonaws.com/hpairapi/version.json"
+          @"tracks"       : @"https://s3.amazonaws.com/hpairapi/tracks.json",
+          @"schedules"    : @"https://s3.amazonaws.com/hpairapi/schedule.json",
+          @"version"      : @"https://s3.amazonaws.com/hpairapi/version.json",
+          @"notifications": @"https://s3.amazonaws.com/hpairapi/notifications.json"
                 };
         
         self.fileMappings =
             @{
-              @"tracks"   : @"tracks",
-              @"schedules": @"schedules",
-              @"version"  : @"version"
+              @"tracks"       : @"tracks",
+              @"schedules"    : @"schedules",
+              @"version"      : @"version",
+              @"notifications": @"notifications"
               };
         self.versionDataKeyMappings =
             @{
-              @"tracks"   : @"track-version",
-              @"schedules": @"schedule-version",
+              @"tracks"        : @"track-version",
+              @"schedules"     : @"schedule-version",
+              @"notifications" : @"notifications-version"
               };
     }
     return self;
@@ -109,28 +112,19 @@
 -(void)versionRequestSucceededWithData:(NSData*)data dataKey:(NSString*)dataKey delegate:(id<DataLoaderReceiver>)delegate {
     
     NSError* error = nil;
-    NSDictionary* versionInfo = [self parseData:data error:&error];
     
-    NSDictionary *storedVersionInfo = [self retrieveStoredDataForDataKey:@"version"];
+    NSDictionary *versionInfo = [self parseData:data error:&error];
+    NSMutableDictionary *storedVersionInfo = [self retrieveStoredDataForDataKey:@"version"].mutableCopy;
     
-    BOOL freshInstall = NO;
+    NSString *item = self.versionDataKeyMappings[dataKey];
     
-    for (NSString* item in self.versionDataKeyMappings.allKeys) {
-        if (!storedVersionInfo || storedVersionInfo[item] < versionInfo[item] || freshInstall) {
-            NSMutableDictionary *newDictionary = [storedVersionInfo mutableCopy];
-            if (!newDictionary) {
-                //on a fresh install, use the downloaded versions
-                newDictionary = [versionInfo mutableCopy];
-                freshInstall = YES;
-            }
-            newDictionary[item] = versionInfo[item];
-            
-            NSLog(@"making data fetch request");
-            
-            [self makeNetworkRequestForDataKey:dataKey withDelegate:delegate versionInfo:newDictionary];
-        }
+    storedVersionInfo = (!storedVersionInfo) ? [NSMutableDictionary dictionary] : storedVersionInfo;
+    
+    if (![storedVersionInfo objectForKey:item] || storedVersionInfo[item] < versionInfo[item]) {
+        storedVersionInfo[item] = versionInfo[item];
+        NSLog(@"making data fetch request");
+        [self makeNetworkRequestForDataKey:dataKey withDelegate:delegate versionInfo:storedVersionInfo];
     }
-    
 }
 
 -(void) makeNetworkRequestForDataKey:(NSString*)dataKey withDelegate:(id<DataLoaderReceiver>)delegate versionInfo:(NSDictionary*)versionInfo  {

@@ -7,11 +7,22 @@
 //
 
 #import "ScheduleEventTableViewCell.h"
+#import "AppDelegate.h"
 
 @implementation ScheduleEventTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+
+    UIColor *textColor = [UIColor darkGrayColor];
+    
+    self.eventName.textColor = delegate.darkColor;
+    self.eventTime.textColor = textColor;
+    self.eventLocation.textColor = textColor;
+    self.eventDescription.textColor = textColor;
     // Initialization code
 }
 

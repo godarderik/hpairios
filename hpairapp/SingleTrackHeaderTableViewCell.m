@@ -7,11 +7,18 @@
 //
 
 #import "SingleTrackHeaderTableViewCell.h"
+#import "AppDelegate.h"
 
 @implementation SingleTrackHeaderTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    UIColor *textColor = [UIColor darkGrayColor];
+    
+    self.trackNameLabel.textColor = delegate.darkColor;
+    self.trackDescriptionTextView.textColor = textColor;
     // Initialization code
 }
 

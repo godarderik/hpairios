@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DataLoader.h"
+#import "NSString+MD5.h"
 
 @interface AppDelegate ()
 
@@ -28,9 +29,26 @@
         
     }
     
-    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
-
+    [self registerNotifications];
+    
+    self.mainColor = [UIColor colorWithRed:47.0/255 green:168.0/255 blue:228.0/255 alpha:1.0f];
+    self.darkColor = [UIColor colorWithRed:10.0/255 green:78.0/255 blue:108.0/255 alpha:1.0f];
+    self.textColor = [UIColor whiteColor];
+    
+    
+     [[UINavigationBar appearance] setBarTintColor:self.mainColor];
     return YES;
+}
+
+- (void)registerNotifications {
+    UIUserNotificationType types = (UIUserNotificationType) (UIUserNotificationTypeSound | UIUserNotificationTypeAlert);
+    
+    UIUserNotificationSettings *mySettings =
+    [UIUserNotificationSettings settingsForTypes:types categories:nil];
+    
+    [[UIApplication sharedApplication] registerUserNotificationSettings:mySettings];
+    
+    [[UIApplication sharedApplication] registerForRemoteNotifications];
 }
 
 -(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken  {
@@ -38,10 +56,31 @@
     NSString* newToken = [[[NSString stringWithFormat:@"%@",deviceToken]
                            stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]] stringByReplacingOccurrencesOfString:@" " withString:@""];
     
+    //send to server here
+    [self sendDeviceToken:newToken];
     
+}
+
+- (void)sendDeviceToken:(NSString *)token {
+    NSString *salt = @"1cfeb606c8c7f05ca9ca91d0b2618549";
+    NSString *hash = [[token stringByAppendingString: salt] MD5String];
     
-    
-    
+    NSString *post = [NSString stringWithFormat:@"device_token=%@&hash=%@", token, hash];
+    NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+    NSString *postLength = [NSString stringWithFormat:@"%lu",[postData length]];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+    [request setURL:[NSURL URLWithString:@"https://guarded-reaches-59578.herokuapp.com/registerDevice"]];
+    [request setHTTPMethod:@"POST"];
+    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [request setHTTPBody:postData];
+    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    if(conn) {
+        NSLog(@"Connection Successful");
+    } else {
+        NSLog(@"Connection could not be made");
+    }
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

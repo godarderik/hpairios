@@ -10,6 +10,7 @@
 #import "SingleTrackHeaderTableViewCell.h"
 #import "TrackEventTableViewCell.h"
 #import "ScheduleEvent.h"
+#import "AppDelegate.h"
 
 static NSString *mapTableViewHeaderCellLabel = @"SingleTrackTableViewHeaderCellLabel";
 static NSString *mapTableViewCellLabel = @"SingleTrackTableViewCellLabel";
@@ -30,6 +31,10 @@ static NSString *mapTableViewCellLabel = @"SingleTrackTableViewCellLabel";
     self.tableView.estimatedRowHeight = 140;
     
     self.headerStrings = @[@"Description", @"Events"];
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    self.view.backgroundColor = delegate.darkColor;
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -102,24 +107,24 @@ static NSString *mapTableViewCellLabel = @"SingleTrackTableViewCellLabel";
     
 }
 
--(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 18)];
-    /* Create custom view to display section header... */
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(14, 0, tableView.frame.size.width, 18)];
-    [label setFont:[UIFont boldSystemFontOfSize:14]];
-    NSString *string = [self.headerStrings objectAtIndex:section];
-    /* Section header is in 0th index... */
-    [label setText:string];
-    [view addSubview:label];
+//-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+//{
+//    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 18)];
+//    /* Create custom view to display section header... */
+//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(14, 0, tableView.frame.size.width, 18)];
+//    [label setFont:[UIFont boldSystemFontOfSize:14]];
+//   NSString *string = [self.headerStrings objectAtIndex:section];
+//    /* Section header is in 0th index... */
+//    [label setText:string];
+//    [view addSubview:label];
     //[view setBackgroundColor:[UIColor colorWithRed:166/255.0 green:177/255.0 blue:186/255.0 alpha:1.0]]; //your background color...
-    return view;
-}
+//    return view;/
+//}
 
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 30.0f;
-}
+//-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section/
+//{
+//    return 30.0f;
+//}*/
 
 /*
 #pragma mark - Navigation

@@ -7,6 +7,7 @@
 //
 
 #import "SingleMapViewController.h"
+#import "AppDelegate.h"
 
 @interface SingleMapViewController ()
 
@@ -54,6 +55,10 @@
     
     [self.scrollView addSubview:self.mapImageView];
     [self.view addSubview:self.scrollView];
+    
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    
+    self.view.backgroundColor = delegate.darkColor;
     // Do any additional setup after loading the view.
 }
 
